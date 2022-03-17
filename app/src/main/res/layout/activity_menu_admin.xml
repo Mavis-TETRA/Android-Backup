@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuAdmin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/admin_exit"
+        android:gravity="end"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_admin_exit"
+            android:backgroundTint="@color/orange"
+            android:text="Thoát"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:drawableRight="@drawable/ic_baseline_exit_to_app_24"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/admin_exit"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_admin_controlBooks"
+                android:backgroundTint="@color/orange"
+                android:text="Quản Lí Sách"
+                android:textStyle="bold"
+                android:textSize="14dp"
+
+                android:layout_margin="20dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_admin_controlBorrowAndPay"
+                android:backgroundTint="@color/orange"
+                android:text="Quản Lí Mượn Trả"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:layout_margin="20dp"
+               />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_admin_controlAccount"
+                android:backgroundTint="@color/orange"
+                android:text="Quản Lí Tài Khoản"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:layout_margin="20dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_admin_controlSpAccount"
+                android:backgroundTint="@color/orange"
+                android:text="Quản Lí Đặt Biệt"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:layout_margin="20dp"
+               />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

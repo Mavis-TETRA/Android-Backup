@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/drawable-v24/background.xml" value="0.20625" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/drawable-v24/eye.xml" value="0.20625" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.20625" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.20625" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/drawable/ic_baseline_key_24.xml" value="0.20625" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.20625" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/drawable/ic_baseline_person_pin_24.xml" value="0.20625" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.20625" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/drawable/ic_baseline_visibility_off_24.xml" value="0.20625" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.20625" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/layout/activity_account.xml" value="0.19972826086956522" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/layout/activity_category_actyvity.xml" value="0.19972826086956522" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/layout/activity_control_books.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/layout/activity_list_books.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/layout/activity_login_admin.xml" value="0.33" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/layout/activity_menu_admin.xml" value="0.1" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/layout/activity_sign_in_admin.xml" value="0.18568840579710144" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/layout/activity_sign_in_stu.xml" value="0.25" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/layout/activity_signup.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/layout/background.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/layout/dialog.xml" value="0.17844202898550723" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/layout/dialog_category.xml" value="0.1" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/layout/eye.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/layout/menu.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/tan/Documents/Code IT/Android_Studio/LibaryApp/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

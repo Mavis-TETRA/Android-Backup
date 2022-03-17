@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ControlBooks"
+    android:orientation="vertical"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/book_category"
+            android:text="QL Danh Mục"
+            android:backgroundTint="@color/orange"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/book_column"
+            android:text="QL Kệ Sách"
+            android:backgroundTint="@color/orange"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/book_author"
+            android:text="QL Tác Giả"
+            android:backgroundTint="@color/orange"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/book_setBook"
+            android:text="QL Sách"
+            android:backgroundTint="@color/orange"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/book_coment"
+            android:text="QL Bình Luận"
+            android:backgroundTint="@color/orange"/>
+    </LinearLayout>
+
+</LinearLayout>

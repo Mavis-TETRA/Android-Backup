@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginAdmin">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LG_titleLoginAdmin"
+            android:text="Đăng Nhập"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="@color/black333"
+            android:gravity="start"
+            android:paddingLeft="30dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/background"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_baseline_person_pin_24"/>
+
+            <EditText
+                android:id="@+id/LG_inputUsrenameAdmin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:hint="ID Thủ Thư"
+                android:imeOptions="actionDone"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/background"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_baseline_lock_24"/>
+
+            <EditText
+                android:id="@+id/LG_inputPasswordAdmin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:hint="Mật Khẩu"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            <ImageView
+                android:id="@+id/iv_eye"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/eye" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="end">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_ForgotPassAdmin"
+                android:text="Quên mật khẩu?"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/orange"
+                android:layout_margin="20dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_LoginAdmin"
+                android:text="Đăng Nhập"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/orange"
+                android:layout_marginRight="20dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_LoginStudent"
+            android:text="Đăng Nhập Với Tư Cách Sinh Viên"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/orange"
+            android:layout_margin="20dp"
+            />
+
+    </LinearLayout>
+</RelativeLayout>
